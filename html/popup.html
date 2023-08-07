@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link
-      href="/vendor/bootstrap-4.2.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link href="../css/popup.css" rel="stylesheet" />
-  </head>
-  <body>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="/vendor/bootstrap-4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/popup.css" rel="stylesheet">
+</head>
+<body>
     <section>
-      <h3>Auto-Autologout</h3>
-      <p>A third-party tool to keep your browsing uninterrupted!</p>
-      <p>Average user after finding this extension:</p>
-      <img src="/images/my_goat.jpg" />
-      <div class="ImageDescription"></div>
-    </section>
+        <div class="top-section"></div>
+            <label class="switch">
+                <input type="checkbox" id="toggleExtension">
+                <span class="slider"></span>
+            </label>
+            <h3>Auto-Autologout</h3>
+        </div>
 
-    <section>
-      <button id="toggleExtension">Enable/Disable</button>
+        <div class="reload-interval-container">
+            <label for="reloadInterval">Reload Interval (seconds):</label>
+            <input type="number" id="reloadInterval" value="10">
+        </div>
+        
+        <p>A third-party tool to keep your browsing uninterrupted!</p>
+        <p>Average student after finding this extension:</p>
+        <img src="/images/my_goat.jpg">
+        <div class="ImageDescription">
+        
+        </div>
     </section>
-
+    
     <footer class="text-right">
-      <small class="text-muted">
-        &copy; 2023 -
-        <span class="foe-link">https://github.com/Itsparrotdude/FoE-GBT</span>
-      </small>
+        <small class="text-muted">
+            &copy; 2023 - <a href="https://github.com/Itsparrotdude/AutoAutologout" class="foe-link" id="github-link">github.com/Itsparrotdude/AutoAutologout</a>
+        </small>
     </footer>
 
-    <script src="/vendor/jQuery/jquery.min.js"></script>
     <script src="../js/popup.js"></script>
-  </body>
+</body>
 </html>

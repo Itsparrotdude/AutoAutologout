@@ -2,7 +2,8 @@
     "manifest_version": 3,
     "name": "Auto-Autologout",
     "version": "1.0",
-    "permissions": ["tabs"],
+    "permissions": ["tabs",
+                    "storage"],
     "background": {
       "service_worker": "background.js"
     },
