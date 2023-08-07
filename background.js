@@ -1,7 +1,7 @@
 // background.js
 
 // Define the URL you want to reload
-const targetUrl = 'https://login.syd-1.linewize.net/logout?url=autologout.linewize.net&deviceid=mtalbert.tts&ip=10.100.16.156&mac=10:b5:88:68:cb:4d&&t=1691364646&h=704f19308df72a75e4248ec8867f029b843e9f70';
+const targetUrl = 'https://login.syd-1.linewize.net/logout?url=autologout.linewize.net&deviceid=mtalbert.tts&ip=10.100.16.156&mac=10:b5:88:68:cb:4d&&t=1691368456&h=85e839d8b5931aa5332b0ceda66de814217d8152';
 
 // Function to reload the tab
 function reloadTab(tabId) {
