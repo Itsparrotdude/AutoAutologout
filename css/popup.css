@@ -1,0 +1,44 @@
+body {
+    min-width: 300px;
+	background-color: #fff;
+	margin: 0;
+	font-size: 1em;
+}
+
+body > section, body > footer {
+	padding: 15px;
+}
+
+p {
+	margin: 0.25rem 0 0.5rem;
+    font-size: 75%;
+    text-align: center;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+section {
+	border-bottom: 1px solid #ccc;
+}
+
+h3 {
+	color: #1573d4;
+	font-weight: bold;
+	margin: 0;
+	font-size: 1.1em;
+    text-align: center;
+} 
+
+.foe-link {
+	color: #007bff;
+	cursor:grab;
+}
+
+footer {
+	background-color: #eee;
+	font-size: 90%;
+	text-align: center;
+
+}
