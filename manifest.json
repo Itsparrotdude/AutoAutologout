@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Auto Page Reloader",
+    "name": "Auto-Autologout",
     "version": "1.0",
     "permissions": ["tabs"],
     "background": {
@@ -9,6 +9,12 @@
     "action": {
       "default_popup": "html/popup.html",
       "default_icon": "images/autologout.png"
+    },
+
+    "icons": {
+      "16": "images/autologout16.png",
+      "48": "images/autologout48.png",
+      "128": "images/autologout128.png"
     },
 
     "content_scripts": [
